@@ -10,7 +10,7 @@ os.mkdir("notifications")
 
 
 def dir_data():
-    init = open("data/__init__.py", "w+")
+    init = open("notifications/__init__.py", "w+")
     init.close()
     db_data = open("notifications/config.json", "w+")
     db_data.close()
